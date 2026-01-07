@@ -1,0 +1,113 @@
+import { Link } from "wouter";
+import { Sun, Facebook, Twitter, Instagram, Linkedin, MapPin, Phone, Mail } from "lucide-react";
+import { FreeQuoteModal } from "./FreeQuoteModal";
+
+export function Footer() {
+  return (
+    <footer className="bg-gray-900 text-white pt-16 pb-8 border-t border-gray-800">
+      <div className="container-custom">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+          {/* Brand */}
+          <div className="space-y-6">
+            <Link href="/" className="flex items-center gap-2">
+              <Sun className="h-8 w-8 text-primary fill-primary" />
+              <div className="flex flex-col">
+                <span className="text-xl font-display font-bold text-white leading-none">
+                  Swayog<span className="text-secondary">Urja</span>
+                </span>
+                <span className="text-[10px] text-gray-400 font-medium tracking-wider uppercase">
+                  Solar Solutions
+                </span>
+              </div>
+            </Link>
+            <p className="text-gray-400 leading-relaxed">
+              Empowering homes and businesses with clean, renewable energy solutions. 
+              Join the green revolution today.
+            </p>
+            <div className="flex gap-4">
+              {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
+                <a key={i} href="#" className="p-2 bg-gray-800 rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+                  <Icon className="h-5 w-5" />
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h3 className="text-lg font-bold mb-6 text-white">Quick Links</h3>
+            <ul className="space-y-4">
+              {[
+                { label: "About Us", href: "/about" },
+                { label: "Our Services", href: "/services" },
+                { label: "Projects Gallery", href: "/projects" },
+                { label: "Pricing Packages", href: "/pricing" },
+                { label: "Contact Us", href: "/contact" },
+              ].map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-gray-400 hover:text-primary transition-colors flex items-center gap-2 group">
+                    <span className="h-1 w-1 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h3 className="text-lg font-bold mb-6 text-white">Services</h3>
+            <ul className="space-y-4">
+              {[
+                "Residential Solar",
+                "Commercial Solutions",
+                "Industrial Plants",
+                "Solar Maintenance",
+                "Net Metering",
+              ].map((service) => (
+                <li key={service} className="text-gray-400 flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 bg-secondary rounded-full" />
+                  {service}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Contact Info */}
+          <div>
+            <h3 className="text-lg font-bold mb-6 text-white">Get in Touch</h3>
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3 text-gray-400">
+                <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>123 Solar Street, Green Tech Park,<br />Innovation City, IN 400001</span>
+              </li>
+              <li className="flex items-center gap-3 text-gray-400">
+                <Phone className="h-5 w-5 text-primary shrink-0" />
+                <span>+91 987 654 3210</span>
+              </li>
+              <li className="flex items-center gap-3 text-gray-400">
+                <Mail className="h-5 w-5 text-primary shrink-0" />
+                <span>info@swayogurja.com</span>
+              </li>
+            </ul>
+            <div className="mt-6">
+              <FreeQuoteModal>
+                <button className="w-full py-3 px-6 bg-secondary text-white rounded-lg font-semibold hover:bg-secondary/90 transition-colors">
+                  Request Free Quote
+                </button>
+              </FreeQuoteModal>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+          <p>© {new Date().getFullYear()} Swayog Urja. All rights reserved.</p>
+          <div className="flex gap-6">
+            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
