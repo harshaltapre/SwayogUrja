@@ -30,7 +30,7 @@ export function Navbar() {
             <img
               src="images/WhatsApp Image 2026-01-07 at 5.04.11 PM.jpeg"
               alt="Swayog Energy"
-              className="h-8. w-8"
+              className="h-8.2 w-8.2"
             />
           </div>
           <div className="flex flex-col">
