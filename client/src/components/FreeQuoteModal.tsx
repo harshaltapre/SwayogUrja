@@ -56,7 +56,7 @@ export function FreeQuoteModal({ children }: { children: React.ReactNode }) {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
                 <Label htmlFor="name">Full Name</Label>
-                <Input id="name" {...form.register("name")} placeholder="John Doe" className="rounded-lg" />
+                <Input id="name" {...form.register("name")} placeholder="Harshal Tapre" className="rounded-lg" />
                 {form.formState.errors.name && (
                   <p className="text-xs text-red-500">{form.formState.errors.name.message}</p>
                 )}
