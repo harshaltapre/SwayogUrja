@@ -80,7 +80,7 @@ export function Footer() {
                 "Industrial Plants",
                 "Solar Maintenance",
                 "VNM",
-                "Operation & Maintainence",
+                "Operation & Maintenance",
                 "Battery Storage",
               ].map((service) => (
                 <li
