@@ -69,8 +69,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-bold mb-1">Phone</h3>
-                    <p className="text-gray-600 mb-1">+91 987 654 3210</p>
-                    <p className="text-sm text-gray-500">Mon-Fri 9am-6pm</p>
+                    <p className="text-gray-600 mb-1">+91 8484030070</p>
+                    <p className="text-sm text-gray-500">Mon-Sat 9am-6pm</p>
                   </div>
                 </div>
 
@@ -92,7 +92,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-bold mb-1">Business Hours</h3>
                     <p className="text-gray-600">Monday - Saturday</p>
-                    <p className="text-gray-600">09:00 AM - 07:00 PM</p>
+                    <p className="text-gray-600">10:00 AM - 06:30 PM</p>
                   </div>
                 </div>
               </div>
@@ -117,7 +117,7 @@ export default function Contact() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="firstName">First Name</Label>
-                    <Input id="firstName" required placeholder="John" />
+                    <Input id="firstName" required placeholder="Harshal" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="lastName">Last Name</Label>
@@ -131,7 +131,7 @@ export default function Contact() {
                     id="email"
                     type="email"
                     required
-                    placeholder="john@example.com"
+                    placeholder="harshal@example.com"
                   />
                 </div>
 
