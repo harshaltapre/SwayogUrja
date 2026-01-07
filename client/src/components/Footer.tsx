@@ -1,5 +1,14 @@
 import { Link } from "wouter";
-import { Sun, Facebook, Twitter, Instagram, Linkedin, MapPin, Phone, Mail } from "lucide-react";
+import {
+  Sun,
+  Facebook,
+  Twitter,
+  Instagram,
+  Linkedin,
+  MapPin,
+  Phone,
+  Mail,
+} from "lucide-react";
 import { FreeQuoteModal } from "./FreeQuoteModal";
 
 export function Footer() {
@@ -21,12 +30,16 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-gray-400 leading-relaxed">
-              Empowering homes and businesses with clean, renewable energy solutions. 
-              Join the green revolution today.
+              Empowering homes and businesses with clean, renewable energy
+              solutions. Join the green revolution today.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
-                <a key={i} href="#" className="p-2 bg-gray-800 rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+                <a
+                  key={i}
+                  href="#"
+                  className="p-2 bg-gray-800 rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                >
                   <Icon className="h-5 w-5" />
                 </a>
               ))}
@@ -45,7 +58,10 @@ export function Footer() {
                 { label: "Contact Us", href: "/contact" },
               ].map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-gray-400 hover:text-primary transition-colors flex items-center gap-2 group">
+                  <Link
+                    href={link.href}
+                    className="text-gray-400 hover:text-primary transition-colors flex items-center gap-2 group"
+                  >
                     <span className="h-1 w-1 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                     {link.label}
                   </Link>
@@ -63,9 +79,14 @@ export function Footer() {
                 "Commercial Solutions",
                 "Industrial Plants",
                 "Solar Maintenance",
-                "Net Metering",
+                "VNM",
+                "Operation & Maintainence",
+                "Battery Storage",
               ].map((service) => (
-                <li key={service} className="text-gray-400 flex items-center gap-2">
+                <li
+                  key={service}
+                  className="text-gray-400 flex items-center gap-2"
+                >
                   <span className="h-1.5 w-1.5 bg-secondary rounded-full" />
                   {service}
                 </li>
@@ -79,15 +100,17 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                <span>205, Gauri Ganesh Appartment UTKARSH NAGAR,
-                    <br />
-                     KT NAGAR GARDEN,behind Cake Link,
-                    <br />
-                    Katol Road, Nagpur, Maharashtra 440013</span>
+                <span>
+                  205, Gauri Ganesh Appartment UTKARSH NAGAR,
+                  <br />
+                  KT NAGAR GARDEN,behind Cake Link,
+                  <br />
+                  Katol Road, Nagpur, Maharashtra 440013
+                </span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone className="h-5 w-5 text-primary shrink-0" />
-                <span >+91 8484030070</span>
+                <span>+91 8484030070</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail className="h-5 w-5 text-primary shrink-0" />
@@ -107,8 +130,12 @@ export function Footer() {
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
           <p>© {new Date().getFullYear()} Swayog Urja. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-white transition-colors">
+              Privacy Policy
+            </a>
+            <a href="#" className="hover:text-white transition-colors">
+              Terms of Service
+            </a>
           </div>
         </div>
       </div>
