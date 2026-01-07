@@ -27,14 +27,22 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <div className="bg-primary/10 p-2 rounded-lg group-hover:bg-primary/20 transition-colors">
-            <Sun className="h-8 w-8 text-primary fill-primary" />
+            <img
+              src="/path-to-handshake-icon.png"
+              alt="Swayog Energy"
+              className="h-8 w-8"
+            />
           </div>
           <div className="flex flex-col">
-            <span className="text-xl font-display font-bold text-gray-900 leading-none">
-              Swayog<span className="text-secondary">Urja</span>
+            <span className="text-xl font-display font-bold leading-none">
+              <span className="text-orange-500">SWAY</span>
+              <span className="text-green-600">OG</span>
             </span>
-            <span className="text-[10px] text-muted-foreground font-medium tracking-wider uppercase">
-              Solar Solutions
+            <span className="text-[10px] text-gray-600 font-medium tracking-wider uppercase">
+              Energy Private Limited
+            </span>
+            <span className="text-[8px] text-gray-500 font-semibold tracking-wide uppercase">
+              Together We Can
             </span>
           </div>
         </Link>
@@ -58,7 +66,10 @@ export function Navbar() {
 
         {/* CTA */}
         <div className="hidden lg:flex items-center gap-4">
-          <a href="tel:+91 8484833070" className="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-secondary transition-colors">
+          <a
+            href="tel:+91 8484833070"
+            className="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-secondary transition-colors"
+          >
             <Phone className="h-4 w-4" />
             +91 848 483 3070
           </a>
