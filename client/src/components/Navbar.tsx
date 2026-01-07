@@ -58,9 +58,9 @@ export function Navbar() {
 
         {/* CTA */}
         <div className="hidden lg:flex items-center gap-4">
-          <a href="tel:+919876543210" className="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-secondary transition-colors">
+          <a href="tel:+91 8484833070" className="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-secondary transition-colors">
             <Phone className="h-4 w-4" />
-            +91 987 654 3210
+            +91 848 483 3070
           </a>
           <FreeQuoteModal>
             <Button className="btn-primary rounded-full px-6 bg-primary text-primary-foreground hover:bg-primary/90">

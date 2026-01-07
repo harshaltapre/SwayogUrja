@@ -39,7 +39,6 @@ export function FreeQuoteModal({ children }: { children: React.ReactNode }) {
       phone: "",
       projectType: "Residential",
       message: "",
-      customerNo: "",
     },
   });
 
@@ -66,9 +65,9 @@ export function FreeQuoteModal({ children }: { children: React.ReactNode }) {
           </DialogDescription>
         </div>
 
-        <div className="p-6 bg-white max-h-[70vh] overflow-y-auto">
+        <div className="p-6 bg-white">
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
                 <Label htmlFor="name">Full Name</Label>
                 <Input
@@ -99,36 +98,20 @@ export function FreeQuoteModal({ children }: { children: React.ReactNode }) {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="space-y-2">
-                <Label htmlFor="email">Email Address</Label>
-                <Input
-                  id="email"
-                  type="email"
-                  {...form.register("email")}
-                  placeholder="harshal@example.com"
-                  className="rounded-lg"
-                />
-                {form.formState.errors.email && (
-                  <p className="text-xs text-red-500">
-                    {form.formState.errors.email.message}
-                  </p>
-                )}
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="customerNo">Consumer No. (Optional)</Label>
-                <Input
-                  id="customerNo"
-                  {...form.register("customerNo")}
-                  placeholder="MSEB-12345"
-                  className="rounded-lg"
-                />
-                {form.formState.errors.customerNo && (
-                  <p className="text-xs text-red-500">
-                    {form.formState.errors.customerNo.message}
-                  </p>
-                )}
-              </div>
+            <div className="space-y-2">
+              <Label htmlFor="email">Email Address</Label>
+              <Input
+                id="email"
+                type="email"
+                {...form.register("email")}
+                placeholder="harshal@example.com"
+                className="rounded-lg"
+              />
+              {form.formState.errors.email && (
+                <p className="text-xs text-red-500">
+                  {form.formState.errors.email.message}
+                </p>
+              )}
             </div>
 
             <div className="space-y-2">
