@@ -27,9 +27,10 @@ export default function Contact() {
 
   return (
     <div className="flex flex-col min-h-screen pt-20">
-      <section className="bg-gray-900 text-white py-20">
+      {/* Header */}
+      <section className="bg-secondary/5 py-20">
         <div className="container-custom text-center">
-          <h1 className="text-4xl lg:text-6xl font-display font-bold mb-6">
+          <h1 className="text-4xl lg:text-6xl font-display font-bold text-gray-900 mb-6">
             Contact Us
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
