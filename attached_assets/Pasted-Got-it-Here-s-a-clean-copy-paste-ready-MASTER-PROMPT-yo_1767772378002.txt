@@ -1,0 +1,214 @@
+Got it 👍
+Here’s a **clean, copy-paste–ready MASTER PROMPT** you can use in **ChatGPT / any AI website builder / design tool** to generate a **modern, fast, non-bloated solar installation website** for **swayogurja.com**.
+
+I’ve written it like a pro client brief — minus the bugs, plus the sunshine ☀️
+(And yes, every page captures leads because leads = money.)
+
+---
+
+## 🌞 SOLAR INSTALLATION COMPANY WEBSITE – MASTER PROMPT
+
+**Role:**
+You are a senior UI/UX designer and full-stack web developer specializing in clean, high-performance business websites.
+
+**Objective:**
+Create a **modern, fast, interactive, SEO-friendly website** for a **solar installation company** named **Swayog Urja**.
+The current website (swayogurja.com) is buggy, bloated, and outdated — this new version must be lightweight, smooth, and conversion-focused.
+
+---
+
+## 🎯 DESIGN & TECH REQUIREMENTS
+
+* Minimal, clean, professional design
+* No unnecessary animations or heavy libraries
+* Fast load time (mobile-first)
+* Simple navigation
+* Strong call-to-action on every page
+* Green + white + solar-yellow color theme
+* Modern typography
+* Trust-building visuals (projects, team, clients)
+
+---
+
+## 🏠 PAGES TO CREATE
+
+### 1️⃣ HOME PAGE
+
+Include:
+
+* Hero section with bold headline
+  **“Clean Energy. Smart Savings. Reliable Solar Solutions.”**
+* Short company intro (2–3 lines)
+* Buttons: **Get Free Quotation | Call Now**
+* Services overview (Residential / Commercial / Industrial)
+* Why Choose Us (experience, quality, support)
+* Recent projects preview
+* Testimonials
+* Blog preview
+* Strong CTA section
+
+➡️ **Free Quotation Form (visible on homepage)**
+Fields:
+
+* Name
+* Phone Number
+* Email
+* Type of Project (Residential / Commercial / Industrial)
+* Message
+
+---
+
+### 2️⃣ OUR PROCESS
+
+Explain in simple steps:
+
+1. Free Consultation
+2. Site Inspection
+3. Custom Solar Design
+4. Installation
+5. Testing & Commissioning
+6. After-Sales Support
+
+Include icons and short descriptions.
+
+➡️ **Free Consultation Form at bottom**
+
+---
+
+### 3️⃣ ABOUT US
+
+Include:
+
+* Company story and mission
+* Vision for renewable energy
+* Years of experience
+* Certifications & standards
+* Trust-building tone
+
+➡️ CTA: **“Get Your Free Solar Consultation Today”**
+
+---
+
+### 4️⃣ OUR TEAM
+
+* Team member cards with:
+
+  * Photo
+  * Name
+  * Role
+  * Short bio
+* Friendly but professional tone
+
+---
+
+### 5️⃣ GALLERY
+
+* Grid of real project images
+* Filters:
+
+  * Residential
+  * Commercial
+  * Industrial
+* Lightbox preview on click
+
+---
+
+### 6️⃣ OUR SERVICES
+
+Create separate sections for:
+
+* Residential Solar Installation
+* Commercial Solar Systems
+* Industrial Solar Projects
+* Solar Maintenance & AMC
+* Net Metering Assistance
+
+Each service includes:
+
+* Benefits
+* Ideal use case
+* CTA button
+
+---
+
+### 7️⃣ PACKAGES & PRICING
+
+* Clear solar package cards (example):
+
+  * 1kW / 3kW / 5kW / Custom
+* Mention:
+
+  * Starting price (or “Price on Request”)
+  * Subsidy assistance
+  * Warranty info
+
+➡️ Button: **Get Exact Price – Free Quote**
+
+---
+
+### 8️⃣ BLOGS
+
+* Clean blog layout
+* Educational solar content:
+
+  * Solar subsidy info
+  * Cost savings
+  * Maintenance tips
+  * Government policies
+* SEO-optimized structure
+
+---
+
+### 9️⃣ CONTACT US
+
+Include:
+
+* Contact form
+* Phone number
+* Email
+* WhatsApp button
+* Google Map embed
+
+**Business Details:**
+
+* 📍 Main Location: *[Company Location]*
+* 🕙 Working Hours: **10:00 AM – 6:30 PM**
+
+---
+
+## 📌 GLOBAL REQUIREMENT (VERY IMPORTANT)
+
+➡️ **Every single page must include a “Free Consultation / Free Quotation” form**
+
+Form Fields:
+
+* Customer Name
+* Mobile Number
+* Email
+* Project Type:
+
+  * Residential
+  * Commercial
+  * Industrial
+* Message
+
+---
+
+## 🚀 FINAL OUTPUT EXPECTATION
+
+* Clean HTML/CSS/JS (or modern framework)
+* Reusable components
+* No bloated plugins
+* Conversion-focused UI
+* Easy to host & scale
+
+---
+
+If you want next:
+
+* 🔥 **Same prompt converted for Webflow / WordPress / Framer**
+* 🔥 **Actual homepage content written**
+* 🔥 **UI wireframe structure**
+* 🔥 **Lead-optimized form logic**
+
+Just say the word — solar power waits for no one 😄☀️
