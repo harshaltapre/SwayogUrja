@@ -27,21 +27,25 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <div className="bg-primary/10 p-2 rounded-lg group-hover:bg-primary/20 transition-colors">
-            <img
-              src="images/WhatsApp Image 2026-01-07 at 5.04.11 PM.jpeg"
-              alt="Swayog Energy"
-              className="h-8.2 w-8.2"
+            <img 
+              src="first image" 
+              alt="Swayog Energy" 
+              className="h-8 w-8"
             />
           </div>
           <div className="flex flex-col">
-            <img
-              src="images/WhatsApp Image 2026-01-07 at 5.04.12 PM.jpeg"
-              alt="Swayog Energy"
-              className="h-8 w-17"
-            />
+            <span className="text-xl font-display font-bold leading-none">
+              <span className="text-orange-500">SWA</span>
+              <span className="text-green-600">YOG</span>
+            </span>
+            <span className="text-[10px] text-gray-600 font-medium tracking-wider uppercase">
+              Energy Private Limited
+            </span>
+            <span className="text-[8px] text-gray-500 font-semibold tracking-wide uppercase">
+              Together We Can
+            </span>
           </div>
-        </Link>
-
+        </Link>   
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-1">
           {navItems.map((item) => (
@@ -61,10 +65,7 @@ export function Navbar() {
 
         {/* CTA */}
         <div className="hidden lg:flex items-center gap-4">
-          <a
-            href="tel:+91 8484833070"
-            className="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-secondary transition-colors"
-          >
+          <a href="tel:+91 8484833070" className="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-secondary transition-colors">
             <Phone className="h-4 w-4" />
             +91 848 483 3070
           </a>
