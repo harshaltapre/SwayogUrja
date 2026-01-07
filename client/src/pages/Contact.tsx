@@ -164,7 +164,7 @@ export default function Contact() {
           {/* Map */}
           <div className="mt-16 h-[400px] rounded-3xl overflow-hidden bg-gray-100 shadow-md">
             <iframe
-              src="https://www.google.com/maps/place/Swayog+Consultancy+Services%2FSwayog+Energy+pvt+limited/@21.1753508,79.0511414,17z/data=!3m1!4b1!4m6!3m5!1s0x3bd4c1b9cbc4c71d:0xb9a9c8d9d23fb817!8m2!3d21.1753508!4d79.0511414!16s%2Fg%2F11c4g4fr0l?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+              src="https://www.google.com/maps/embed/v1/place?q=Swayog%20Consultancy%20Services%2FSwayog%20Energy%20pvt%20limited%2C%20205%2C%20Katol%20Rd%2C%20KT%20Nagar%2C%20Nagpur%2C%20Maharashtra%20440013&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
               width="100%"
               height="100%"
               style={{ border: 0 }}
