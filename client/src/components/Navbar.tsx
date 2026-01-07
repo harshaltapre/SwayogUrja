@@ -28,22 +28,17 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-2 group">
           <div className="bg-primary/10 p-2 rounded-lg group-hover:bg-primary/20 transition-colors">
             <img
-              src="/path-to-handshake-icon.png"
+              src="images/WhatsApp Image 2026-01-07 at 5.04.11 PM.jpeg"
               alt="Swayog Energy"
-              className="h-8 w-8"
+              className="h-8. w-8"
             />
           </div>
           <div className="flex flex-col">
-            <span className="text-xl font-display font-bold leading-none">
-              <span className="text-orange-500">SWAY</span>
-              <span className="text-green-600">OG</span>
-            </span>
-            <span className="text-[10px] text-gray-600 font-medium tracking-wider uppercase">
-              Energy Private Limited
-            </span>
-            <span className="text-[8px] text-gray-500 font-semibold tracking-wide uppercase">
-              Together We Can
-            </span>
+            <img
+              src="images/WhatsApp Image 2026-01-07 at 5.04.12 PM.jpeg"
+              alt="Swayog Energy"
+              className="h-8 w-17"
+            />
           </div>
         </Link>
 
