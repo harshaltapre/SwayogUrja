@@ -79,11 +79,15 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                <span>123 Solar Street, Green Tech Park,<br />Innovation City, IN 400001</span>
+                <span>205, Gauri Ganesh Appartment UTKARSH NAGAR,
+                    <br />
+                     KT NAGAR GARDEN,behind Cake Link,
+                    <br />
+                    Katol Road, Nagpur, Maharashtra 440013</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone className="h-5 w-5 text-primary shrink-0" />
-                <span>+91 987 654 3210</span>
+                <span >+91 8484030070</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail className="h-5 w-5 text-primary shrink-0" />

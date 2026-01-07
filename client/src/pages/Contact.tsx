@@ -54,9 +54,9 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-bold mb-1">Our Office</h3>
                     <p className="text-gray-600 leading-relaxed">
-                      205,Gauri Ganesh Appartment UTKARSH NAGAR,
+                      205, Gauri Ganesh Appartment UTKARSH NAGAR,
                       <br />
-                      KT NAGAR GARDEN,behind Cake Link,
+                       KT NAGAR GARDEN,behind Cake Link,
                       <br />
                       Katol Road, Nagpur, Maharashtra 440013
                     </p>
