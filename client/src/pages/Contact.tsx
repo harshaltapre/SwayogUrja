@@ -33,7 +33,7 @@ export default function Contact() {
           <h1 className="text-4xl lg:text-6xl font-display font-bold text-gray-900 mb-6">
             Contact Us
           </h1>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Have questions? We're here to help you switch to solar.
           </p>
         </div>

@@ -44,7 +44,7 @@ export default function Process() {
           <h1 className="text-4xl lg:text-6xl font-display font-bold text-gray-900 mb-6">
             How It Works
           </h1>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Our seamless 6-step process takes you from consultation to
             generation without any hassle.
           </p>
