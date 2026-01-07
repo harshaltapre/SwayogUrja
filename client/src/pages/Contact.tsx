@@ -56,7 +56,7 @@ export default function Contact() {
                     <p className="text-gray-600 leading-relaxed">
                       205, Gauri Ganesh Appartment UTKARSH NAGAR,
                       <br />
-                       KT NAGAR GARDEN,behind Cake Link,
+                      KT NAGAR GARDEN,behind Cake Link,
                       <br />
                       Katol Road, Nagpur, Maharashtra 440013
                     </p>
@@ -164,7 +164,7 @@ export default function Contact() {
           {/* Map */}
           <div className="mt-16 h-[400px] rounded-3xl overflow-hidden bg-gray-100 shadow-md">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.121169986175!2d73.9085!3d18.5679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDM0JzA0LjQiTiA3M8KwNTQnMzAuNiJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/place/Swayog+Consultancy+Services%2FSwayog+Energy+pvt+limited/@21.1753508,79.0511414,17z/data=!3m1!4b1!4m6!3m5!1s0x3bd4c1b9cbc4c71d:0xb9a9c8d9d23fb817!8m2!3d21.1753508!4d79.0511414!16s%2Fg%2F11c4g4fr0l?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
               width="100%"
               height="100%"
               style={{ border: 0 }}
