@@ -1,6 +1,9 @@
 import { z } from 'zod';
 import { insertInquirySchema, inquiries } from './schema';
 
+export type Inquiry = typeof inquiries.$inferSelect;
+export type InsertInquiry = z.infer<typeof insertInquirySchema>;
+
 export const errorSchemas = {
   validation: z.object({
     message: z.string(),

@@ -14,6 +14,8 @@ import Contact from "@/pages/Contact";
 import NotFound from "@/pages/not-found";
 import { useEffect } from "react";
 
+import { TooltipProvider } from "@/components/ui/tooltip";
+
 function Router() {
   const [location] = useLocation();
 
@@ -45,8 +47,10 @@ function Router() {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <Toaster />
-      <Router />
+      <TooltipProvider>
+        <Toaster />
+        <Router />
+      </TooltipProvider>
     </QueryClientProvider>
   );
 }
