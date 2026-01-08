@@ -25,7 +25,7 @@ export default function About() {
             <div className="order-2 lg:order-1 relative">
               {/* team working */}
               <img
-                src="https://pixabay.com/get/gd5806187bf0311761e6002d7fbe976fa0e5c539140bb7b57ac7285466442972af556a3f9e8ec556ba6575a026e703e688eb1257f3cb55fbeab1fc3487dd2df9c_1280.jpg"
+                src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1280&h=720&fit=crop&q=80"
                 alt="Our Team"
                 className="rounded-2xl shadow-2xl"
               />
