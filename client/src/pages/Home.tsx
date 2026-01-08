@@ -114,7 +114,7 @@ export default function Home() {
                 icon: <Sun className="h-10 w-10 text-primary" />,
                 title: "Residential Solar",
                 desc: "Rooftop solar systems for independent houses and housing societies. Save on monthly bills.",
-                img: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?auto=format&fit=crop&q=80&w=800",
+                img: "#",
               },
               {
                 icon: <Zap className="h-10 w-10 text-primary" />,
