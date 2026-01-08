@@ -45,12 +45,12 @@ export default function Home() {
               <Leaf className="h-4 w-4 text-primary" />
               <span>Leading Solar Provider in India</span>
             </div>
-            <h1 className="text-5xl lg:text-7xl font-display font-bold leading-tight mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-display font-bold leading-tight mb-6">
               <span className="text-green-600">Clean Energy.</span>
               <br />
               <span className="text-orange-400">Smart Savings.</span>
             </h1>
-            <p className="text-xl text-gray-200 mb-8 leading-relaxed max-w-lg">
+            <p className="text-lg sm:text-xl text-gray-200 mb-8 leading-relaxed max-w-lg">
               Switch to solar with Swayog Urja. Reduce your electricity bills by
               up to 90% and contribute to a greener planet.
             </p>
