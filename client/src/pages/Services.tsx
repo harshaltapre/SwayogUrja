@@ -23,7 +23,7 @@ export default function Services() {
       features: ["Accelerated Depreciation (40%)", "High ROI (3-4 Years)", "Reduced Carbon Footprint", "Customized Carport Solutions"],
       icon: Building2,
       color: "bg-blue-50 text-blue-600",
-      image: "/Public/images/com.jpeg"
+      image: "Public/images/com.jpeg"
     },
     {
       id: "industrial",
@@ -33,7 +33,7 @@ export default function Services() {
       features: ["Grid-Interactive Systems", "High Capacity Inverters", "Load Flow Analysis", "Peak Load Shaving"],
       icon: Factory,
       color: "bg-slate-50 text-slate-600",
-      image: "/Public/images/Korade site.jpg"
+      image: "Public/images/Korade site.jpg"
     },
     {
       id: "maintenance",
