@@ -26,13 +26,11 @@ export function Navbar() {
       <div className="container-custom h-20 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="bg-primary/10 p-2 rounded-lg group-hover:bg-primary/20 transition-colors">
-            <img
-              src="/images/logo.jpeg"
-              alt="Swayog Energy"
-              className="h-9 w-15"
-            />
-          </div>
+          <img 
+            src="/src/components/logo.jpeg" 
+            alt="Swayog Energy" 
+            className="h-12 w-auto object-contain"
+          />
         </Link>
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-1">
