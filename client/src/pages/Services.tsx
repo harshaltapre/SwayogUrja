@@ -33,7 +33,7 @@ export default function Services() {
       features: ["Grid-Interactive Systems", "High Capacity Inverters", "Load Flow Analysis", "Peak Load Shaving"],
       icon: Factory,
       color: "bg-slate-50 text-slate-600",
-      image: "Public/images/Korade site.jpg"
+      image: "Public/images/industrial.jpg"
     },
     {
       id: "maintenance",
