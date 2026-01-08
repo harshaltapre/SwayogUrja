@@ -3,6 +3,7 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { api } from "@shared/routes";
 import { z } from "zod";
+import nodemailer from "nodemailer";
 
 export async function registerRoutes(
   httpServer: Server,
@@ -13,6 +14,38 @@ export async function registerRoutes(
     try {
       const input = api.inquiries.create.input.parse(req.body);
       const inquiry = await storage.createInquiry(input);
+
+      // Email notification logic
+      const transporter = nodemailer.createTransport({
+        host: process.env.SMTP_HOST,
+        port: parseInt(process.env.SMTP_PORT || "587"),
+        secure: process.env.SMTP_SECURE === "true",
+        auth: {
+          user: process.env.SMTP_USER,
+          pass: process.env.SMTP_PASS,
+        },
+      });
+
+      const mailOptions = {
+        from: process.env.SMTP_USER,
+        to: process.env.OWNER_EMAIL || process.env.SMTP_USER,
+        subject: `New Solar Inquiry from ${inquiry.name}`,
+        text: `
+          New Inquiry Details:
+          Name: ${inquiry.name}
+          Email: ${inquiry.email}
+          Phone: ${inquiry.phone}
+          Consumer ID: ${inquiry.customerNo || "N/A"}
+          Project Type: ${inquiry.projectType}
+          Message: ${inquiry.message}
+        `,
+      };
+
+      // We don't await email sending to avoid blocking the response
+      transporter.sendMail(mailOptions).catch(err => {
+        console.error("Failed to send email notification:", err);
+      });
+
       res.status(201).json(inquiry);
     } catch (err) {
       if (err instanceof z.ZodError) {
