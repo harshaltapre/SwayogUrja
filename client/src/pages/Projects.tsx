@@ -9,57 +9,59 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Green Villa Residence",
+      title: "Koradi Site ",
       category: "Residential",
-      capacity: "5kW",
-      location: "Pune, MH",
-      image:
-        "https://images.unsplash.com/photo-1611365892117-00ac5ef43c90?w=800&auto=format&fit=crop&q=60",
+      capacity: "3kW",
+      location: "Amravati, MH",
+      image: "/Public/images/Korade site.jpg",
     },
     {
       id: 2,
-      title: "Tech Park Rooftop",
-      category: "Commercial",
-      capacity: "100kW",
-      location: "Mumbai, MH",
-      image:
-        "https://images.unsplash.com/photo-1595833215549-a29241940985?w=800&auto=format&fit=crop&q=60",
+      title: "Himgiri Apartments",
+      category: "Residential",
+      capacity: "5kW",
+      location: "Nagpur, MH",
+      image: "/Public/images/himgiri.jpeg",
     },
     {
       id: 3,
-      title: "Steel Factory Plant",
-      category: "Industrial",
-      capacity: "500kW",
-      location: "Nashik, MH",
-      image:
-        "https://images.unsplash.com/photo-1566093097221-85652050523e?w=800&auto=format&fit=crop&q=60",
+      title: "Gokul Girdhar 7+ Sites",
+      category: "Commercial",
+      capacity: "25.4KW",
+      location: "Saroj Nagar, Nagpur, MH",
+      image: "/Public/images/gokul girdhar.jpeg",
     },
     {
       id: 4,
-      title: "Modern Apartment Complex",
-      category: "Residential",
-      capacity: "25kW",
-      location: "Pune, MH",
-      image:
-        "https://images.unsplash.com/photo-1592833159057-65a269f51c58?w=800&auto=format&fit=crop&q=60",
+      title: "Pauni School Anandam Vidyalay",
+      category: "Commercial",
+      capacity: "20kW",
+      location: "Nagpur, MH",
+      image: "/Public/images/pauni School .jpg",
     },
     {
       id: 5,
-      title: "School Campus",
+      title: "Mangalam Tuli Apartment",
       category: "Commercial",
-      capacity: "40kW",
-      location: "Satara, MH",
-      image:
-        "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&auto=format&fit=crop&q=60",
+      capacity: "20kW",
+      location: "Friends Colony Nagpur, MH",
+      image: "/Public/images/mangalm tulsi.jpg",
     },
     {
       id: 6,
-      title: "Warehousing Unit",
-      category: "Industrial",
-      capacity: "200kW",
+      title: "Balaji Appertment 12+ Sites",
+      category: "Residential",
+      capacity: "53kW",
       location: "Nagpur, MH",
-      image:
-        "https://images.unsplash.com/photo-1617155093730-a8bf47be792d?w=800&auto=format&fit=crop&q=60",
+      image: "/Public/images/balaji.jpeg",
+    },
+    {
+      id: 6,
+      title: "Ginning Mill",
+      category: "Industrial",
+      capacity: "300kW",
+      location: "Rural Amravati, MH",
+      image: "/Public/images/ginning mill.jpg",
     },
   ];
 
@@ -73,7 +75,7 @@ export default function Projects() {
           <h1 className="text-4xl lg:text-6xl font-display font-bold mb-6">
             Our Portfolio
           </h1>
-            <p className="text-xl text-white/80 max-w-2xl mx-auto">
+          <p className="text-xl text-white/80 max-w-2xl mx-auto">
             Take a look at some of our recent installations powering homes and
             businesses.
           </p>
