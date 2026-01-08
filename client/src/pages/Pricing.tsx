@@ -61,7 +61,7 @@ export default function Pricing() {
           <h1 className="text-4xl lg:text-6xl font-display font-bold mb-6">
             Transparent Pricing
           </h1>
-          <p className="text-xl text-white/80 max-w-2xl mx-auto">
+          <p className="text-xl text-black/80 max-w-2xl mx-auto">
             Estimated costs for standard on-grid solar systems. Prices may vary
             based on site conditions and subsidy.
           </p>
