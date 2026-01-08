@@ -27,7 +27,11 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <div className="bg-primary/10 p-2 rounded-lg group-hover:bg-primary/20 transition-colors">
-            <img src="logo.jpeg" alt="Swayog Energy" className="h-9 w-15" />
+            <img
+              src="client/Public/images/logo.jpeg"
+              alt="Swayog Energy"
+              className="h-9 w-15"
+            />
           </div>
         </Link>
         {/* Desktop Nav */}
