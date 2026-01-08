@@ -13,7 +13,7 @@ export default function Services() {
       features: ["30% - 90% Bill Reduction", "Govt. Subsidy Support", "25 Year Performance Warranty", "Net Metering Setup"],
       icon: Sun,
       color: "bg-orange-50 text-orange-600",
-      image: "Public/images/com.jpeg"
+      image: "#"
     },
     {
       id: "commercial",
@@ -23,7 +23,7 @@ export default function Services() {
       features: ["Accelerated Depreciation (40%)", "High ROI (3-4 Years)", "Reduced Carbon Footprint", "Customized Carport Solutions"],
       icon: Building2,
       color: "bg-blue-50 text-blue-600",
-      image: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800&auto=format&fit=crop&q=60"
+      image: "/Public/images/com.jpeg"
     },
     {
       id: "industrial",
@@ -33,7 +33,7 @@ export default function Services() {
       features: ["Grid-Interactive Systems", "High Capacity Inverters", "Load Flow Analysis", "Peak Load Shaving"],
       icon: Factory,
       color: "bg-slate-50 text-slate-600",
-      image: "https://images.unsplash.com/photo-1548613053-220e7534d3d4?w=800&auto=format&fit=crop&q=60"
+      image: "/Public/images/Korade site.jpg"
     },
     {
       id: "maintenance",
