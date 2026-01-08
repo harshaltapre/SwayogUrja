@@ -5,6 +5,8 @@ import { Menu, Sun, Phone } from "lucide-react";
 import { useState } from "react";
 import { FreeQuoteModal } from "./FreeQuoteModal";
 
+import logoImg from "@/assets/logo.png";
+
 export function Navbar() {
   const [location] = useLocation();
   const [isOpen, setIsOpen] = useState(false);
@@ -25,14 +27,12 @@ export function Navbar() {
     <nav className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-100 shadow-sm">
       <div className="container-custom h-20 flex items-center justify-between">
         {/* Logo */}
-        <Link href="#" className="flex items-center gap-2 group">
-          <div>
-            <img
-              src="/src/components/logo.png"
-              alt="Swayog Energy"
-              className="h-9 w-15"
-            />
-          </div>
+        <Link href="/" className="flex items-center gap-2 group">
+          <img 
+            src={logoImg} 
+            alt="Swayog Energy" 
+            className="h-12 w-auto object-contain"
+          />
         </Link>
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-1">

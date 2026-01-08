@@ -11,6 +11,8 @@ import {
 } from "lucide-react";
 import { FreeQuoteModal } from "./FreeQuoteModal";
 
+import logoImg from "@/assets/logo.png";
+
 export function Footer() {
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8 border-t border-gray-800">
@@ -20,7 +22,7 @@ export function Footer() {
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-2">
               <img
-                src="/src/components/logo.png"
+                src={logoImg}
                 alt="Swayog Energy Private Limited - Together We Can"
                 className="h-12 w-auto md:h-14 lg:h-16 object-contain"
               />
