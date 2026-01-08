@@ -13,7 +13,7 @@ export default function Projects() {
       category: "Residential",
       capacity: "3kW",
       location: "Amravati, MH",
-      image: "/Public/images/Korade site.jpg",
+      image: "/images/Korade site.jpg",
     },
     {
       id: 2,
