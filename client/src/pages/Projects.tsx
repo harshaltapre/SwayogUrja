@@ -56,7 +56,7 @@ export default function Projects() {
       image: "/Public/images/balaji.jpeg",
     },
     {
-      id: 6,
+      id: 7,
       title: "Ginning Mill",
       category: "Industrial",
       capacity: "300kW",

@@ -13,7 +13,7 @@ export default function Services() {
       features: ["30% - 90% Bill Reduction", "Govt. Subsidy Support", "25 Year Performance Warranty", "Net Metering Setup"],
       icon: Sun,
       color: "bg-orange-50 text-orange-600",
-      image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?w=800&auto=format&fit=crop&q=60"
+      image: ""
     },
     {
       id: "commercial",
