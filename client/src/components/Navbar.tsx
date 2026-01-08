@@ -27,17 +27,10 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <div className="bg-primary/10 p-2 rounded-lg group-hover:bg-primary/20 transition-colors">
-            <img 
-              src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=32&h=32&fit=crop&q=80" 
-              alt="Swayog Energy" 
-              className="h-8 w-8"
-            />
-          </div>
-          <div className="flex flex-col">
-            <span className="text-xl font-bold leading-none text-secondary">SWAYOG</span>
-            <span className="text-[10px] font-bold tracking-widest text-primary uppercase">Urja</span>
+            <img src="logo.jpeg" alt="Swayog Energy" className="h-9 w-15" />
           </div>
         </Link>
+        {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-1">
           {navItems.map((item) => (
             <Link
@@ -56,7 +49,10 @@ export function Navbar() {
 
         {/* CTA */}
         <div className="hidden lg:flex items-center gap-4">
-          <a href="tel:+91 8484833070" className="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-secondary transition-colors">
+          <a
+            href="tel:+91 8484833070"
+            className="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-secondary transition-colors"
+          >
             <Phone className="h-4 w-4" />
             +91 848 483 3070
           </a>

@@ -20,7 +20,7 @@ export function Footer() {
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-2">
               <img
-                src="client/src/components/logo.jpeg"
+                src="logo.jpeg"
                 alt="Swayog Energy Private Limited - Together We Can"
                 className="h-12 w-auto md:h-14 lg:h-16 object-contain"
               />
