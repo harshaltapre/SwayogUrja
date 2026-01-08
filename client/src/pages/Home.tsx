@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[600px] lg:h-[700px] flex items-center overflow-hidden">
+      <section className="relative h-[600px] lg:h-[700px] flex items-center overflow-hidden w-full">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           {/* solar panel array on roof */}
@@ -54,27 +54,27 @@ export default function Home() {
               Switch to solar with Swayog Urja. Reduce your electricity bills by
               up to 90% and contribute to a greener planet.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 w-full">
               <FreeQuoteModal>
                 <Button
                   size="lg"
-                  className="h-14 px-8 text-lg rounded-full bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-xl shadow-primary/20"
+                  className="h-14 px-8 text-lg rounded-full bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-xl shadow-primary/20 w-full sm:w-auto"
                 >
                   Get Free Quote
                 </Button>
               </FreeQuoteModal>
-              <Link href="/projects">
+              <Link href="/projects" className="w-full sm:w-auto">
                 <Button
                   size="lg"
                   variant="outline"
-                  className="h-14 px-8 text-lg rounded-full border-2 border-white text-white hover:bg-white/10 backdrop-blur-sm"
+                  className="h-14 px-8 text-lg rounded-full border-2 border-white text-white hover:bg-white/10 backdrop-blur-sm w-full"
                 >
                   View Our Projects
                 </Button>
               </Link>
             </div>
 
-            <div className="mt-12 grid grid-cols-2 sm:flex sm:items-center gap-4 sm:gap-8 text-sm font-medium text-gray-300">
+            <div className="mt-12 flex flex-wrap items-center gap-4 sm:gap-8 text-sm font-medium text-gray-300">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-primary" />
                 <span className="whitespace-nowrap">25 Year Warranty</span>
