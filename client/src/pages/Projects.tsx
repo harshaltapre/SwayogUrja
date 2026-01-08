@@ -13,7 +13,7 @@ export default function Projects() {
       category: "Residential",
       capacity: "3kW",
       location: "Amravati, MH",
-      image: "/images/Korade site.jpg",
+      image: "/Public/images/Korade site.jpg",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ export default function Projects() {
       category: "Residential",
       capacity: "5kW",
       location: "Nagpur, MH",
-      image: "/images/himgiri.jpeg",
+      image: "client/Public/images/himgiri.jpeg",
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ export default function Projects() {
       category: "Commercial",
       capacity: "20kW",
       location: "Nagpur, MH",
-      image: "/images/pauni School .jpg",
+      image: "images/pauni School .jpg",
     },
     {
       id: 5,
@@ -45,7 +45,7 @@ export default function Projects() {
       category: "Commercial",
       capacity: "20kW",
       location: "Friends Colony Nagpur, MH",
-      image: "/images/mangalm tulsi.jpg",
+      image: "Public/images/mangalm tulsi.jpg",
     },
     {
       id: 6,
