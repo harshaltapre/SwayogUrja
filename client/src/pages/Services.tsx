@@ -13,7 +13,7 @@ export default function Services() {
       features: ["30% - 90% Bill Reduction", "Govt. Subsidy Support", "25 Year Performance Warranty", "Net Metering Setup"],
       icon: Sun,
       color: "bg-orange-50 text-orange-600",
-      image: "#"
+      image: "client/Public/images/balaji.jpeg"
     },
     {
       id: "commercial",
@@ -23,7 +23,7 @@ export default function Services() {
       features: ["Accelerated Depreciation (40%)", "High ROI (3-4 Years)", "Reduced Carbon Footprint", "Customized Carport Solutions"],
       icon: Building2,
       color: "bg-blue-50 text-blue-600",
-      image: "Public/images/com.jpeg"
+      image: "client/Public/images/img1.jpeg"
     },
     {
       id: "industrial",
@@ -33,7 +33,7 @@ export default function Services() {
       features: ["Grid-Interactive Systems", "High Capacity Inverters", "Load Flow Analysis", "Peak Load Shaving"],
       icon: Factory,
       color: "bg-slate-50 text-slate-600",
-      image: "Public/images/industrial.jpg"
+      image: "client/Public/images/industrial.jpg"
     },
     {
       id: "maintenance",
