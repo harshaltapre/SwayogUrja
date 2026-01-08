@@ -28,25 +28,16 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-2 group">
           <div className="bg-primary/10 p-2 rounded-lg group-hover:bg-primary/20 transition-colors">
             <img 
-              src="first image" 
+              src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=32&h=32&fit=crop&q=80" 
               alt="Swayog Energy" 
               className="h-8 w-8"
             />
           </div>
           <div className="flex flex-col">
-            <span className="text-xl font-display font-bold leading-none">
-              <span className="text-orange-500">SWA</span>
-              <span className="text-green-600">YOG</span>
-            </span>
-            <span className="text-[10px] text-gray-600 font-medium tracking-wider uppercase">
-              Energy Private Limited
-            </span>
-            <span className="text-[8px] text-gray-500 font-semibold tracking-wide uppercase">
-              Together We Can
-            </span>
+            <span className="text-xl font-bold leading-none text-secondary">SWAYOG</span>
+            <span className="text-[10px] font-bold tracking-widest text-primary uppercase">Urja</span>
           </div>
-        </Link>   
-        {/* Desktop Nav */}
+        </Link>
         <div className="hidden lg:flex items-center gap-1">
           {navItems.map((item) => (
             <Link
