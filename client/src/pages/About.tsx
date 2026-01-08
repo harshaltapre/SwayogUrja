@@ -11,7 +11,7 @@ export default function About() {
           <h1 className="text-4xl lg:text-6xl font-display font-bold mb-6">
             Powering a Brighter Future
           </h1>
-          <p className="text-xl text-white/80 max-w-2xl mx-auto">
+            <p className="text-xl text-black/80 max-w-2xl mx-auto">
             Swayog Urja is dedicated to accelerating the adoption of sustainable
             energy through innovation, quality, and customer-centricity.
           </p>
