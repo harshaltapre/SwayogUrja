@@ -28,7 +28,7 @@ export async function registerRoutes(
 
       const mailOptions = {
         from: process.env.SMTP_USER,
-        to: process.env.OWNER_EMAIL || process.env.SMTP_USER,
+        to: "swayog.office@gmail.com",
         subject: `New Solar Inquiry from ${inquiry.name}`,
         text: `
           New Inquiry Details:

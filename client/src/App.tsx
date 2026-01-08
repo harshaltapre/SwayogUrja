@@ -15,6 +15,7 @@ import NotFound from "@/pages/not-found";
 import { useEffect } from "react";
 
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { WhatsAppOverlay } from "@/components/WhatsAppOverlay";
 
 function Router() {
   const [location] = useLocation();
@@ -40,6 +41,7 @@ function Router() {
         </Switch>
       </main>
       <Footer />
+      <WhatsAppOverlay />
     </div>
   );
 }
