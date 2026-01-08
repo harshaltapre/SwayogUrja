@@ -38,13 +38,12 @@ export default function Process() {
 
   return (
     <div className="flex flex-col min-h-screen pt-20">
-      {/* Header */}
-      <section className="bg-secondary/5 py-20">
+      <section className="bg-secondary text-white py-20">
         <div className="container-custom text-center">
-          <h1 className="text-4xl lg:text-6xl font-display font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl lg:text-6xl font-display font-bold mb-6">
             How It Works
           </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-white/80 max-w-2xl mx-auto">
             Our seamless 6-step process takes you from consultation to
             generation without any hassle.
           </p>

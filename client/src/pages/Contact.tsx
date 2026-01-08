@@ -27,13 +27,12 @@ export default function Contact() {
 
   return (
     <div className="flex flex-col min-h-screen pt-20">
-      {/* Header */}
-      <section className="bg-secondary/5 py-20">
+      <section className="bg-secondary text-white py-20">
         <div className="container-custom text-center">
-          <h1 className="text-4xl lg:text-6xl font-display font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl lg:text-6xl font-display font-bold mb-6">
             Contact Us
           </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-white/80 max-w-2xl mx-auto">
             Have questions? We're here to help you switch to solar.
           </p>
         </div>
@@ -122,7 +121,7 @@ export default function Contact() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="lastName">Last Name</Label>
-                    <Input id="lastName" required placeholder="Doe" />
+                    <Input id="lastName" required placeholder="Last Name" />
                   </div>
                 </div>
 

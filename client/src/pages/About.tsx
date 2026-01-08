@@ -6,13 +6,12 @@ import { Target, Lightbulb, Heart, Award } from "lucide-react";
 export default function About() {
   return (
     <div className="flex flex-col min-h-screen pt-20">
-      {/* Header */}
-      <section className="bg-secondary/5 py-20">
+      <section className="bg-secondary text-white py-20">
         <div className="container-custom text-center">
-          <h1 className="text-4xl lg:text-6xl font-display font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl lg:text-6xl font-display font-bold mb-6">
             Powering a Brighter Future
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-white/80 max-w-2xl mx-auto">
             Swayog Urja is dedicated to accelerating the adoption of sustainable
             energy through innovation, quality, and customer-centricity.
           </p>
