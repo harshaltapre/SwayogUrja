@@ -74,18 +74,18 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="mt-12 flex items-center gap-8 text-sm font-medium text-gray-300">
+            <div className="mt-12 grid grid-cols-2 sm:flex sm:items-center gap-4 sm:gap-8 text-sm font-medium text-gray-300">
               <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-5 w-5 text-primary" />
-                <span>25 Year Warranty</span>
+                <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-primary" />
+                <span className="whitespace-nowrap">25 Year Warranty</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-5 w-5 text-primary" />
-                <span>Subsidy Assistance</span>
+                <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-primary" />
+                <span className="whitespace-nowrap">Subsidy Assistance</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-5 w-5 text-primary" />
-                <span>EMI Options</span>
+                <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-primary" />
+                <span className="whitespace-nowrap">EMI Options</span>
               </div>
             </div>
           </motion.div>
