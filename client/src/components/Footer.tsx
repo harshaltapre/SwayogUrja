@@ -19,15 +19,11 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-2">
-              <Sun className="h-8 w-8 text-primary fill-primary" />
-              <div className="flex flex-col">
-                <span className="text-xl font-display font-bold text-white leading-none">
-                  Swayog<span className="text-secondary">Urja</span>
-                </span>
-                <span className="text-[10px] text-gray-400 font-medium tracking-wider uppercase">
-                  Solar Solutions
-                </span>
-              </div>
+              <img
+                src="client/src/components/logo.jpeg"
+                alt="Swayog Energy Private Limited - Together We Can"
+                className="h-12 w-auto md:h-14 lg:h-16 object-contain"
+              />
             </Link>
             <p className="text-gray-400 leading-relaxed">
               Empowering homes and businesses with clean, renewable energy
