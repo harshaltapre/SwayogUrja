@@ -27,7 +27,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           {/* solar panel array on roof */}
           <img
-            src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop&q=80"
+            src="/images/industrial.jpg"
             alt="Solar Panels on Roof"
             className="w-full h-full object-cover"
           />
@@ -114,19 +114,19 @@ export default function Home() {
                 icon: <Sun className="h-10 w-10 text-primary" />,
                 title: "Residential Solar",
                 desc: "Rooftop solar systems for independent houses and housing societies. Save on monthly bills.",
-                img: "#",
+                img: "/images/rooftop.jpg",
               },
               {
                 icon: <Zap className="h-10 w-10 text-primary" />,
                 title: "Commercial Solar",
                 desc: "Power your office, shop, or mall with clean energy. Avail tax benefits and reduce operational costs.",
-                img: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800",
+                img: "/images/com.jpeg",
               },
               {
                 icon: <Shield className="h-10 w-10 text-primary" />,
                 title: "Industrial Solar",
                 desc: "Large scale solar plants for factories and warehouses. High ROI and reduced carbon footprint.",
-                img: "https://images.unsplash.com/photo-1548613053-220e7534d3d4?auto=format&fit=crop&q=80&w=800",
+                img: "/images/industrial.jpg",
               },
             ].map((service, index) => (
               <motion.div
@@ -223,7 +223,7 @@ export default function Home() {
               <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl relative z-10">
                 {/* engineer checking solar panel */}
                 <img
-                  src="https://images.unsplash.com/photo-1542336391-ae2936d8efe4?w=800&auto=format&fit=crop&q=60"
+                  src="/images/img1.jpeg"
                   alt="Engineer inspecting solar panels"
                   className="w-full h-full object-cover"
                 />

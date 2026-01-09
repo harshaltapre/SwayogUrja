@@ -26,7 +26,7 @@ export default function Services() {
       ],
       icon: Sun,
       color: "bg-orange-50 text-orange-600",
-      image: "https://replit.com/@harshaltapre23/Swayog#client/Public/images/balaji.jpeg",
+      image: "/images/balaji.jpeg",
     },
     {
       id: "commercial",
@@ -42,7 +42,7 @@ export default function Services() {
       ],
       icon: Building2,
       color: "bg-blue-50 text-blue-600",
-      image: "https://replit.com/@harshaltapre23/Swayog#client/Public/images/img1.jpeg",
+      image: "/images/img1.jpeg",
     },
     {
       id: "industrial",
@@ -58,7 +58,7 @@ export default function Services() {
       ],
       icon: Factory,
       color: "bg-slate-50 text-slate-600",
-      image: "https://replit.com/@harshaltapre23/Swayog#client/Public/images/industrial.jpg",
+      image: "/images/industrial.jpg",
     },
     {
       id: "maintenance",

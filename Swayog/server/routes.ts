@@ -62,7 +62,7 @@ export async function registerRoutes(
       }
 
       const mailOptions = {
-        from: process.env.SMTP_USER || "no-reply@example.com",
+        from: process.env.EMAIL_FROM || smtpUser || process.env.EMAIL_USER || "no-reply@example.com",
         to: targetEmail,
         subject: `New Solar Inquiry from ${inquiry.name}`,
         text: messageText,

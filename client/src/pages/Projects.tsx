@@ -21,7 +21,7 @@ export default function Projects() {
       category: "Residential",
       capacity: "5kW",
       location: "Nagpur, MH",
-      image: "client/Public/images/himgiri.jpeg",
+      image: "/images/himgiri.jpeg",
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ export default function Projects() {
       category: "Commercial",
       capacity: "20kW",
       location: "Nagpur, MH",
-      image: "images/pauni School .jpg",
+      image: "/images/pauni School .jpg",
     },
     {
       id: 5,
@@ -45,7 +45,7 @@ export default function Projects() {
       category: "Commercial",
       capacity: "20kW",
       location: "Friends Colony Nagpur, MH",
-      image: "Public/images/mangalm tulsi.jpg",
+      image: "/images/mangalm tulsi.jpg",
     },
     {
       id: 6,
